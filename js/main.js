@@ -1,18 +1,4 @@
-/*jshint esversion: 6 */
-const ERROR_STRING = "Nigga don't do that's 5 to 10!"; // change before launch-
-function error() {
-  fill("red");
-  square(squareX * SQUARE_SIZE, squareY * SQUARE_SIZE, GUI_SIZE);
-  selectedX = 9999;
-  selectedY = 9999;
-  console.error("Nigga don't do that's 5 to 10!");
-}
-// canvas
-const WIDTH = 500;
-const HEIGHT = 500;
-const GUI_SIZE = 50;
 // square
-const SQUARE_MARGIN = 10;
 let SQUARE_SIZE = WIDTH / 10;
 let SQUARE_NUM = 10;
 let SQUARES_NUM = SQUARE_NUM * SQUARE_NUM;
